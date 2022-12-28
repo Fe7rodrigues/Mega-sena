@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Gerador Mega-Sena 🍀</title>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Jost|Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Bootstrap-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS Proprietário -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="clover-container">
+        <img src="./img/nature.png" class="clover" alt="trevo" />
+      </div>
+
+      <div class="title-container">
+        <h1>Gerador Mega-Sena</h1>
+        <p>
+          Clique no botão abaixo para gerar um jogo aleatório com seis dezenas.
+        </p>
+      </div>
+
+      <div class="balls-container">
+        <div class="balls">
+          <div class="ball">
+            <span id="ball0">??</span>
+          </div>
+          <div id="alert0" class="alert-text" role="alert"></div>
+        </div>
+
+        <div class="balls">
+          <div class="ball">
+            <span id="ball1">??</span>
+          </div>
+          <div id="alert1" class="alert-text" role="alert"></div>
+        </div>
+
+        <div class="balls">
+          <div class="ball">
+            <span id="ball2">??</span>
+          </div>
+          <div id="alert2" class="alert-text" role="alert"></div>
+        </div>
+
+        <div class="balls">
+          <div class="ball">
+            <span id="ball3">??</span>
+          </div>
+          <div id="alert3" class="alert-text" role="alert"></div>
+        </div>
+
+        <div class="balls">
+          <div class="ball">
+            <span id="ball4">??</span>
+          </div>
+          <div id="alert4" class="alert-text" role="alert"></div>
+        </div>
+
+        <div class="balls">
+          <div class="ball">
+            <span id="ball5">??</span>
+          </div>
+          <div id="alert5" class="alert-text" role="alert"></div>
+        </div>
+      </div>
+
+      <div class="button btn-container">
+        <button type="button" class="btn btn-warning btn-lg generate">
+          Gerar Jogo!
+        </button>
+      </div>
+
+      <div class="legend-title-container">
+        <p>Legenda:</p>
+      </div>
+
+      <div class="legend-container">
+        <ul class="list-group">
+          <li class="list-group-item list-group-item-danger">
+            🔥 => Número está entre os <strong>dez mais
+            sorteados</strong> .
+          </li>
+          <li class="list-group-item list-group-item-primary">
+            🧊 => Número está entre os <strong>dez menos 
+            sorteados</strong> 
+            .
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-container">
+        <p class="credit">
+            &#169; Copyright Fernando Rodrigues. All rights reserved
+        </p>
+      </div>
+    </div>
+
+    <!-- JS Proprietário -->
+    <script src="./js/scripts.js"></script>
+  </body>
+</html>
