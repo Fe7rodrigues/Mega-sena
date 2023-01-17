@@ -1,3 +1,10 @@
+<img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/Fe7rodrigues/Mega-sena" />
+<img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/Fe7rodrigues/Mega-sena" />
+<img alt="" src="https://img.shields.io/github/repo-size/Fe7rodrigues/Mega-sena" />
+<img alt="GitHub Issues" src="https://img.shields.io/github/issues/Fe7rodrigues/Mega-sena" />
+<img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/Fe7rodrigues/Mega-sena" />
+<img alt="Github License" src="https://img.shields.io/github/license/Fe7rodrigues/Mega-sena" />
+
 # Gerador Automático de Jogos da Mega-Sena
 
 ## Objetivo:
